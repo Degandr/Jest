@@ -1,0 +1,40 @@
+{
+  "name": "automation_js",
+  "version": "1.0.0",
+  "description": "I will the best",
+  "main": "FirstFile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --config .prettierrc **/*.ts --write",
+    "lint": "eslint **/*.{ts,json}",
+    "lint:fix": "eslint **/*.{ts,json} --quiet --fix",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\\"
+  },
+  "author": "",
+  "license": "ISC",
+  "lint-staged": {
+    "*.ts": [
+      "npm run lint:fix"
+    ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "@typescript-eslint/parser": "^5.37.0",
+    "eslint": "8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.3",
+    "node-fetch": "^3.2.10",
+    "prettier": "^2.7.1",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "i": "^0.3.7",
+    "npm": "^9.1.1"
+  }
+}
