@@ -37,7 +37,9 @@
     "ts-node": "^10.9.1"
   },
   "dependencies": {
+    "@types/superagent": "^4.1.15",
     "i": "^0.3.7",
-    "npm": "^9.1.1"
+    "npm": "^9.1.1",
+    "superagent": "^8.0.3"
   }
 }
